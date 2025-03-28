@@ -1,0 +1,24 @@
+.a{
+    padding: 4%;
+
+}
+.skill-container h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .skill-bar {
+    background-color: #978070;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 10px;
+    margin-bottom: 15px;
+  }
+  .skill-fill {
+    background-color: #703737; 
+    height: 100%;
+    width: 0; 
+    border-radius: 20px;
+  }
+  

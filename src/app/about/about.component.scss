@@ -1,0 +1,31 @@
+*{
+    line-height: 130%;
+    }
+.a{
+    padding: 4%;
+
+}
+.b{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 7% 3%;
+}
+.b>div{
+    border: 0.2px solid #194240;
+    border-radius: 10px;
+    padding: 4%;
+
+}
+.web-design:hover{
+    box-shadow: 4px 4px 4px 4px #926c51 ;
+}
+.fe:hover{
+    box-shadow: 4px 4px 4px 4px #926c51 ;
+}
+.angular:hover{
+    box-shadow: 4px 4px 4px 4px #926c51 ;
+}
+.backend:hover{
+    box-shadow: 4px 4px 4px 4px #926c51 ;
+}
+
