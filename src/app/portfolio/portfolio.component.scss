@@ -1,24 +1,82 @@
-.a{
-    padding: 4%;
+.skills-section {
+  padding: 1%;
 
+  font-family: 'Segoe UI', sans-serif;
+  color: #2d1e1b;
 }
-.skill-container h3 {
-    font-size: 16px;
-    margin-bottom: 5px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .skill-bar {
-    background-color: #978070;
-    border-radius: 20px;
-    overflow: hidden;
-    height: 10px;
-    margin-bottom: 15px;
-  }
-  .skill-fill {
-    background-color: #703737; 
-    height: 100%;
-    width: 0; 
-    border-radius: 20px;
-  }
-  
+
+.skills-section h2 {
+  text-align: center;
+  color: #5a3c2d;
+  letter-spacing: 1px;
+}
+
+.section-divider {
+  width: 180px;
+  margin: 10px auto 30px;
+  border: 1px solid #c0a98f;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.skill-card {
+  background: #f9f1e7;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(122, 90, 63, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.skill-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(122, 90, 63, 0.25);
+}
+
+.skill-card h3 {
+  font-size: 1.1rem;
+  color: #5a2e17;
+  margin-bottom: 12px;
+  transition: color 0.3s ease, letter-spacing 0.3s ease;
+}
+
+.skill-card:hover h3 {
+  color: #d35400;
+  letter-spacing: 1px;
+}
+
+.skill-card p {
+  font-size: 0.95rem;
+  color: #4b3c2d;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover p {
+  transform: translateX(5px);
+}
+
+.skills-section h2 {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  margin-left: 2%;
+}
+
+.conclusion {
+  margin-top: 10px;
+  padding-left: 2%;
+}
+
+.conclusion li {
+  background-color: #f3e5cd;
+  padding: 10px 25px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  word-spacing: 0.05cm;
+  width: 92%;
+}
